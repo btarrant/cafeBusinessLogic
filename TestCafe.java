@@ -5,9 +5,11 @@ public class TestCafe {
         
     /* 
       You will need add 1 line to this file to create an instance 
-      of the CafeUtil class. 
+      of the CafeUtil class.
       Hint: it will need to correspond with the variable name used below..
     */
+
+    CafeUtil appTest = new CafeUtil();
     	
         /* ============ App Test Cases ============= */
     
