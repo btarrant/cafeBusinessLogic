@@ -3,7 +3,7 @@ import java.util.ArrayList;
 public class CafeUtil {
 
 
-    // Get Streak Goal
+    // Get Streak
     public int getStreakGoal() {
         int sum = 0;
         for(int week = 1; week <= 10; week++) {
@@ -45,8 +45,6 @@ public class CafeUtil {
     }
 
     // Price chart
-    // Ninja bonus: Format for currency
-    // https://docs.oracle.com/javase/tutorial/java/data/numberformat.html
     public void printPriceChart(String productName, double price, int maxQuantity) {
 
         System.out.printf("%s\n", productName);
@@ -60,7 +58,6 @@ public class CafeUtil {
     
 
     // Display Coffee Menu
-    // https://docs.oracle.com/javase/tutorial/java/data/numberformat.html
     public boolean displayMenu(ArrayList<String> menuItems, ArrayList<Double> priceIndex) {
         if(menuItems.size() != priceIndex.size()) {
             return false;
@@ -73,10 +70,9 @@ public class CafeUtil {
 
 
     
-    /* Sensei bonus:
-    Make a method addCustomers where a barista can enter multiple customers. 
-    Hint: You can use a while loop and ask the user to type q when they are finished entering names.
-    */
+
+    // Make a method addCustomers where a barista can enter multiple customers. 
+
 
     public void addCustomers(ArrayList<String> customerList) {
         boolean finished = false;
